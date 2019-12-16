@@ -87,7 +87,9 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "ror" %}
+{% include ror/intro.html %}
+{% elsif site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/intro.html %}
@@ -101,7 +103,9 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "ror" %}
+{% include ror/who.html %}
+{% elsif site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/who.html %}
@@ -257,7 +261,9 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "ror" %}
+{% include ror/schedule.html %}
+{% elsif site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}

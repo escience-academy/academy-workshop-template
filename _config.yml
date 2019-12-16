@@ -11,7 +11,7 @@
 #  https://github.com/carpentries/workshop-template
 # and for instructor training events you should use:
 #  https://github.com/carpentries/training-template
-carpentry: "swc"
+carpentry: "ror"
 
 # This option is currently only needed for Data Carpentry workshops.
 # The value of the variable will be ignored for Software Carpentry and
@@ -61,6 +61,8 @@ carpentries_github: "https://github.com/carpentries"
 carpentries_pages: "https://carpentries.github.io"
 carpentries_site: "https://carpentries.org/"
 dc_site: "https://datacarpentry.org"
+escience_center_site: "https://www.esciencecenter.nl"
+escience_academy_site: "https://escience-academy.github.io"
 example_repo: "https://github.com/carpentries/lesson-example"
 example_site: "https://carpentries.github.io/lesson-example"
 lc_site: "https://librarycarpentry.org/"
