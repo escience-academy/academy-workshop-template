@@ -206,6 +206,7 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
+<!--
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
@@ -220,7 +221,7 @@ Everyone who participates in Carpentries activities is required to conform to th
 </p>
 <hr/>
 
-
+-->
 {% comment %}
 Collaborative Notes
 
@@ -240,7 +241,7 @@ We will use this <a href="{{page.collaborative_notes}}">collaborative document</
 <hr/>
 {% endif %}
 
-
+<!--
 {% comment %} 
 SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
@@ -250,7 +251,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
 <hr/>
-
+-->
 
 {% comment %}
 SCHEDULE
